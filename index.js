@@ -6,7 +6,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   return driverCopy
 }
 
-function updateDriverWithKeyAndValue(driver, key, value) {
+function udestructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   let driverCopy2 = {...driver}
   driverCopy2[key] = value
   return driverCopy2
